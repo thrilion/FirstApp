@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //comentario para hacer el first dev branch commit
+        //segundo comentario para dev branch commit
 
         //llamamos a SecondActivity
         Intent myIntent = new Intent(this, SecondActivity.class);
