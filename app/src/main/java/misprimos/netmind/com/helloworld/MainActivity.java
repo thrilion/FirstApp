@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //comentario para hacer el first dev branch commit
+
         //llamamos a SecondActivity
         Intent myIntent = new Intent(this, SecondActivity.class);
         //startActivity(myIntent);
