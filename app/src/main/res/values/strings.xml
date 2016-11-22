@@ -2,4 +2,16 @@
     <string name="app_name">First App</string>
     <string name="main_activity">Main Activity</string>
     <string name="second_activity">Second Activity</string>
+    <string name="no_info">No info returned</string>
+    <string name="display_info">Display info</string>
+    <string name="new_activity">Start a new Activity</string>
+    <string name="ok">OK</string>
+    <string name="passport"><u>Passport</u></string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="nationality">Nationality</string>
+    <string name="ue_citicen">UE citizen</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
 </resources>

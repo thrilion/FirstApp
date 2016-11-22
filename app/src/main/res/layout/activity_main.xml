@@ -9,8 +9,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="misprimos.netmind.com.helloworld.MainActivity">
 
+    <Button
+        android:id="@+id/buttonDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/buttonNewActivity"
+        android:layout_marginBottom="55dp"
+        android:text="@string/display_info" />
+
+    <Button
+        android:id="@+id/buttonNewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/new_activity" />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txtReturned"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_activity" />
+        android:layout_above="@+id/buttonDisplay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="166dp"
+        android:gravity="center"
+        android:text="@string/no_info" />
 </RelativeLayout>
